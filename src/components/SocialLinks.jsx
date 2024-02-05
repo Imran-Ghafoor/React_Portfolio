@@ -13,7 +13,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://linkedin.com",
-      style: "rounded-tr-md",
+      style: "rounded-tr-md, bg-blue-600",
     },
     {
       id: 2,
@@ -23,6 +23,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://github.com/imran-ghafoor",
+      style: "bg-gray-700",
     },
     {
       id: 3,
@@ -32,6 +33,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "mailto:imranghafoor427@gmail.com",
+      style: "bg-green-600",
     },
     {
       id: 4,

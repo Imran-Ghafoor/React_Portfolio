@@ -20,7 +20,7 @@ const Experience = () => {
       id: 2,
       src: css,
       title: "Css",
-      style: "shadow-blue-500",
+      style: "shadow-sky-500",
     },
     {
       id: 3,
@@ -32,7 +32,7 @@ const Experience = () => {
       id: 4,
       src: react,
       title: "React",
-      style: "shadow-[#61DBFB]",
+      style: "shadow-cyan-400",
     },
     {
       id: 5,
@@ -50,7 +50,7 @@ const Experience = () => {
       id: 7,
       src: tailwind,
       title: "Tailwind",
-      style: "shadow-[#60a5fa]",
+      style: "shadow-cyan-700",
     },
     {
       id: 8,
@@ -78,7 +78,7 @@ const Experience = () => {
               key={id}
               className={`shadow-md shadow-gray-500 hover:scale-105 duration-200 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="border w-20 mx-auto" />
+              <img src={src} alt="" className=" w-20 mx-auto" />
               <p className="mt-4">{title}</p>
             </div>
           ))}
