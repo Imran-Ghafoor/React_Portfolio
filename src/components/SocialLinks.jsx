@@ -43,7 +43,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "ImranGhafoorResume.pdf",
-      style: "rounded-br-md",
+      style: "rounded-br-md , bg-gray-500",
       download: true,
       //   show: "true",
     },
@@ -55,7 +55,7 @@ const SocialLinks = () => {
           <li
             key={id}
             className={
-              "flex justify-between items-center w-40 h-14  px-4 bg-gray-500 ml-[-100px] hover:ml-[-10px] hover:rounded-lg duration-300" +
+              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-lg duration-300" +
               " " +
               style
             }

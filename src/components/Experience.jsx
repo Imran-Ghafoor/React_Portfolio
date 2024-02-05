@@ -32,7 +32,7 @@ const Experience = () => {
       id: 4,
       src: react,
       title: "React",
-      style: "shadow-cyan-400",
+      style: "shadow-cyan-500",
     },
     {
       id: 5,
@@ -50,7 +50,7 @@ const Experience = () => {
       id: 7,
       src: tailwind,
       title: "Tailwind",
-      style: "shadow-cyan-700",
+      style: "shadow-cyan-800",
     },
     {
       id: 8,
@@ -76,7 +76,7 @@ const Experience = () => {
           {experiences.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md shadow-gray-500 hover:scale-105 duration-200 rounded-lg ${style}`}
+              className={`shadow-md hover:scale-105 duration-200 rounded-lg ${style}`}
             >
               <img src={src} alt="" className=" w-20 mx-auto" />
               <p className="mt-4">{title}</p>
