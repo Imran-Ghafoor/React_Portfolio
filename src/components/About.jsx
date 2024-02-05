@@ -12,7 +12,7 @@ const About = () => {
             About
           </p>
         </div>
-        <p className=" text-xl mt-20 ">
+        <p className=" text-lg mt-20 ">
           " I am a passionate skilled MERNStack, Specialist in Front-end and
           enthusiastic javascript developer with a strong background in
           JAVASCRIPT/ES6, REACT.js, Node.js, Redux Toolkit, Context API, MY SQL,
