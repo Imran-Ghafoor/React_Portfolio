@@ -4,15 +4,22 @@ const About = () => {
   return (
     <div
       name="about"
-      className=" py-16 w-full h-full sm:h-screen text-white bg-gradient-to-b from-gray-800 to-black"
+      className="py-16 w-full h-full sm:h-full text-white bg-gradient-to-b from-gray-800 to-black"
     >
       <div className=" max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold border-b-4 inline border-gray-500">
+        <div className="  pb-8">
+          <p className="text-4xl font-bold border-b-4 inline border-gray-500 pt-4">
             About
           </p>
         </div>
-        <p className=" text-lg md:text-center mt-20">
+        <p className="text-pink-500">Hi, my name is</p>
+        <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
+          Muhammad Imran
+        </h1>
+        <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
+          I'm a React Javascript Developer.
+        </h2>
+        <p className="text-[#8892b0] max-w-[950px] md:text-center mt-20">
           " I am a passionate skilled MERNStack, Specialist in Front-end and
           enthusiastic javascript developer with a strong background in
           JAVASCRIPT/ES6, REACT.js, Node.js, Redux Toolkit, Context API, MY SQL,

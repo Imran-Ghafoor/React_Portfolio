@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="bg-gradient-to-b from-gray-800 to-gray-900 p-1 flex justify-center items-center">
       <p className="text-white font-thin">
-        &copy;all rights reserved by<b> ❤️M.Imran</b>
+        &copy; 2024 Imran-Ghafoor. All Rights Reserved by<b>❤️Imran.</b>
       </p>
     </div>
   );

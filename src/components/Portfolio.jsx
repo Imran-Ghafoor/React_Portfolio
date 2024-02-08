@@ -11,18 +11,26 @@ const Portfolio = () => {
     {
       id: 1,
       src: arrayDestruct,
+      href: "https://movie-recommendation-app-theta.vercel.app",
+      code: "https://github.com/Imran-Ghafoor/Movie-Recommendation-App",
     },
     {
       id: 2,
       src: installNode,
+      href: "https://react-video-l4ekunm5d-imran-ghafoor.vercel.app/",
+      code: "",
     },
     {
       id: 3,
       src: navbar,
+      href: "https://new-imran-ghafoor.vercel.app/",
+      code: "",
     },
     {
       id: 4,
       src: reactParallax,
+      href: "https://weather-app-ashen-zeta.vercel.app/",
+      code: "https://github.com/Imran-Ghafoor/Weather-App",
     },
     {
       id: 5,
@@ -47,7 +55,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {Portfolios.map(({ id, src }) => (
+          {Portfolios.map(({ id, src, href, code }) => (
             <div
               key={id}
               className="shadow-lg shadow-gray-500 rounded-md hover:shadow-red-500"
@@ -58,12 +66,16 @@ const Portfolio = () => {
                 className="rounded-md hover:scale-105 duration-200"
               />
               <div className="flex justify-center items-center">
-                <button className="w-1/2 px-6 py-3 m-4 hover:scale-110 duration-200">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 hover:scale-110 duration-200">
-                  Code
-                </button>
+                <a href={href} target="_blank">
+                  <button className="w-1/2 px-6 py-3 m-4 hover:scale-110 duration-200">
+                    Demo
+                  </button>
+                </a>
+                <a href={code} target="_blank">
+                  <button className="w-1/2 px-6 py-3 m-4 hover:scale-110 duration-200">
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           ))}
