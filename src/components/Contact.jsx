@@ -14,7 +14,7 @@ const Contact = () => {
           <p className="py-6">
             Submit the form below to get in touch with me!{" "}
           </p>
-          <span className="text-4xl flex items-center justify-center pb-4 mt-4  ">
+          <span className=" font-signature text-4xl flex items-center justify-center pb-4 mt-4  ">
             Thank you!
           </span>
         </div>
@@ -42,7 +42,7 @@ const Contact = () => {
               rows="10"
               className="p-2 bg-transparent rounded-md shadow-md shadow-green-500 focus:outline text-gray-400"
             ></textarea>
-            <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-800 px-6 py-3 rounded-md my-8 mx-auto flex items-center hover:scale-110 duration-300">
+            <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-800 px-6 py-3 rounded-md my-8 mx-auto flex items-center hover:scale-110 duration-300 hover:text-black font-semibold">
               Let's talk
             </button>
           </form>
