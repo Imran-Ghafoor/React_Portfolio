@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <p className="text-pink-500">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
-          Muhammad Imran
+          Muhammad Wajih arshad
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
           I'm a React Javascript Developer.
