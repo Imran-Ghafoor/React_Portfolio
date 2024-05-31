@@ -3,11 +3,12 @@ import html from "../assets/source/html.png";
 import css from "../assets/source/css.png";
 import javascript from "../assets/source/javascript.png";
 import react from "../assets/source/react.png";
-import graphql from "../assets/source/graphql.png";
 import github from "../assets/source/github.png";
 import tailwind from "../assets/source/tailwind.png";
 import nextjs from "../assets/source/nextjs.png";
-
+import bootstrap from "../assets/source/bootstrap5.png";
+import AntDesign from "../assets/source/ant design.png";
+import wordpress from "../assets/source/wordpress1.png";
 const Skills = () => {
   const skill = [
     {
@@ -36,27 +37,40 @@ const Skills = () => {
     },
     {
       id: 5,
-      src: graphql,
-      title: "GraphQl",
-      style: "shadow-pink-400",
-    },
-    {
-      id: 6,
-      src: github,
-      title: "Github",
-      style: "shadow-gray-400",
-    },
-    {
-      id: 7,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-cyan-800",
     },
     {
+      id: 6,
+      src: bootstrap,
+      title: "Bootstrap",
+      style: "shadow-purple-500",
+    },
+    {
+      id: 7,
+      src: AntDesign,
+      title: "ant design",
+      style: "shadow-red-500",
+    },
+
+    {
       id: 8,
       src: nextjs,
       title: "NextJs",
       style: "shadow-white",
+    },
+    {
+      id: 9,
+      src: wordpress,
+      title: "Wordpress",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 10,
+      src: github,
+      title: "Github",
+      style: "shadow-gray-600",
     },
   ];
   return (

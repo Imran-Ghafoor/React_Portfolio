@@ -1,46 +1,51 @@
 import React from "react";
 import MovieMars from "../assets/source/MovieMars.png";
 import chakraui1 from "../assets/source/chakraui1.png";
-import navbar from "../assets/source/navbar.jpg";
 import weather from "../assets/source/weather.png";
-import reactSmooth from "../assets/source/reactSmooth.jpg";
-import reactWeather from "../assets/source/reactWeather.jpg";
 import sassLandingPage from "../assets/source/sass.png";
+import store from "../assets/source/energyproject.png";
 
 const Experience = () => {
   const Experiences = [
     {
       id: 1,
+      title: "Movie app",
       src: MovieMars,
       demoRef: "https://movie-recommendation-app-theta.vercel.app",
       codeRef: "https://github.com/Imran-Ghafoor/Movie-Recommendation-App",
     },
     {
       id: 2,
+      title: "Chakra ui",
       src: chakraui1,
       demoRef: "https://react-with-chakra-498pxn5qp-imran-ghafoor.vercel.app/",
       codeRef: "https://github.com/Imran-Ghafoor/React-with-Chakra-UI",
     },
     {
       id: 3,
+      title: "Responsive Landing page",
       src: sassLandingPage,
       demoRef: "https://sass-landing-page-indol.vercel.app/",
       codeRef: "https://github.com/Imran-Ghafoor/Sass-landing-page",
     },
     {
       id: 4,
+      title: "Weather app",
       src: weather,
       demoRef: "https://weather-app-ashen-zeta.vercel.app/",
       codeRef: "https://github.com/Imran-Ghafoor/Weather-App",
     },
     {
       id: 5,
-      src: reactSmooth,
+      title: "Wordpress E-Store",
+      src: store,
+      demoRef: "https://energymobilebatteries.com/",
+      codeRef: "https://wordpress.org/",
     },
-    {
-      id: 6,
-      src: reactWeather,
-    },
+    // {
+    //   id: 6,
+    //   src: reactWeather,
+    // },
   ];
   return (
     <div
@@ -58,16 +63,18 @@ const Experience = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {Experiences.map(({ id, src, demoRef, codeRef }) => (
+          {Experiences.map(({ id, src, demoRef, codeRef, title }) => (
             <div
               key={id}
               className="shadow-lg shadow-gray-500 rounded-md hover:shadow-red-500"
             >
+              {title}
               <img
                 src={src}
                 alt=""
-                className="rounded-md hover:scale-105 duration-200"
+                className="rounded-md hover:scale-105 duration-200 {title}"
               />
+
               <div className="flex justify-center items-center">
                 <a href={demoRef} target="_blank">
                   <button className="w-1/2 px-6 py-3 m-4 hover:scale-110 duration-200">
